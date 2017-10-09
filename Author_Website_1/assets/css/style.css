@@ -1,0 +1,75 @@
+p {
+	font-size: large;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.col-lg-9 {
+	padding-right: 4vh;
+	height: 100%;
+}
+
+.row {
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	height: 360px;
+}
+
+.thumbnail {
+	border: none;
+	margin: 0;
+	margin-left: 4vh;
+	padding: 0;
+	box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	/************************** REPLACE BACKGROUND WITH A CUSTOM IMAGE OR A FREE IMAGE **************************/
+	background: url("http://pre12.deviantart.net/7f45/th/pre/f/2013/170/1/3/ar_nat_village_ii_by_andreasrocha-d69q8n0.jpg");
+	/************************** REPLACE BACKGROUND WITH A CUSTOM IMAGE OR A FREE IMAGE **************************/
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	height: 70vh;
+}
+
+.btn-group {
+	position: absolute;
+	bottom: 0;
+}
+
+.btn {
+	width: 16vh;
+}
+
+.btn-lg {
+	width: 20vh;
+}
+
+.synopsis {
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: 800;
+}
+
+#content {
+	text-align: center;
+	color: white;
+	margin: 8%;
+}
+
+#jumbotron-hr {
+	width:400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
